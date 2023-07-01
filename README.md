@@ -10,9 +10,13 @@ This code is designed to be embedded into Squarespace sites. To embed the code, 
 2. In your Squarespace editor, go to the desired page.
 3. Add a Code block.
 4. Paste the copied code into the Code block.
-4a. Utilize `AllTogether.html` for all sections combined.
+
+
+  _4a._ Utilize `AllTogether.html` for all sections combined.
+
 *OR*
-4b. Ensure to add all of the below together inside of your SINGLE code block.
+
+  _4b._ Ensure to add all of the below together inside of your SINGLE code block.
   - `index.html`: Contains the HTML structure for the "Jump to Top" button.
   - `main.js`: Contains the JavaScript logic for the "Jump to Top" button's functionality.
   - `styles.css`: Contains the CSS styles for the "Jump to Top" button.
