@@ -1,0 +1,30 @@
+#topButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; 
+  width: 130px;
+  height: 40px;
+  border-radius: 30px;  
+  background-color: #FFFFFF; 
+  font-size: 14px; 
+  transition: 0.9s; 
+}
+
+#topButton span:first-child {
+  margin-right: 2px;  
+  font-size: 18px; 
+}
+
+#topButton:hover {
+  transform: translateY(-5px);
+  background-color: #e6e6e6; 
+}
+
+#topButton:hover:active {
+  background-color: #cccccc;
+}  
+
+#topButton:not(:hover) {
+  transform: translateY(0);
+  background-color: #FFFFFF;
+}
